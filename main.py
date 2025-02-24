@@ -24,9 +24,9 @@ def main():
     # print(f"Total value of all products: {total_value:.2f} $")
     
     # Removing a product
-    manager.remove_product("Čokolada MILKA")
-    print("\nAfter removing Čokolada MILKA:")
-    manager.display_all_products()
+    # manager.remove_product("Čokolada MILKA")
+    # print("\nAfter removing Čokolada MILKA:")
+    # manager.display_all_products()
     
     cart = Cart()
 
@@ -41,7 +41,7 @@ def main():
             cart.add_to_cart(product, quantity)
 
     # Display cart contents
-    print(80*"*")
+    #print(80*"*")
     cart.display_cart()
 
     # Display total cart value
